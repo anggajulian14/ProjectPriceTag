@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Apakah masih ada barang \ntanpa price tag? \nyuk buat pricetag nya \njangan sampe kosong.."
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:fontFamily="@font/poppinsmedium"
+                android:layout_marginBottom="17dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price Tag Normal"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/PricetagNormal"
+            android:fontFamily="@font/poppinsmedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blue"
+            android:backgroundTint="@color/blue"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price Tag Promo"
+            android:layout_marginHorizontal="30dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsmedium"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/PricetagPromo"/>
+
+    </LinearLayout>
+
+</LinearLayout>

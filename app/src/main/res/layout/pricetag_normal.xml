@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="595dp"
+    android:layout_height="842dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Baris pertama -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Kotak 1 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Baris pertama -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <!-- Kotak 1 -->
+                    <LinearLayout
+                        android:layout_width="55.78125dp"
+                        android:layout_height="39.46875dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="KOPLING GANDA MOTOR"
+                            android:textSize="3dp"
+                            android:textColor="@color/black"/>
+
+
+                    </LinearLayout> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+                    <!-- Kotak 2 -->
+                    <View
+                        android:layout_width="55.78125dp"
+                        android:layout_height="39.46875dp"
+                        android:background="#00FF00" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+                    <!-- Kotak 3 -->
+                    <View
+                        android:layout_width="55.78125dp"
+                        android:layout_height="39.46875dp"
+                        android:background="#0000FF" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+                    <!-- Kotak 4 -->
+                    <View
+                        android:layout_width="55.78125dp"
+                        android:layout_height="39.46875dp"
+                        android:background="#FFFF00" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+                </LinearLayout>
+
+                <!-- Tambah baris-baris berikutnya sesuai kebutuhan -->
+            </LinearLayout>
+            <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+            <!-- Kotak 2 -->
+            <View
+                android:layout_width="55.78125dp"
+                android:layout_height="39.46875dp"
+                android:background="#00FF00" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+            <!-- Kotak 3 -->
+            <View
+                android:layout_width="55.78125dp"
+                android:layout_height="39.46875dp"
+                android:background="#0000FF" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+
+            <!-- Kotak 4 -->
+            <View
+                android:layout_width="55.78125dp"
+                android:layout_height="39.46875dp"
+                android:background="#FFFF00" /> <!-- Ganti warna latar belakang sesuai kebutuhan -->
+        </LinearLayout>
+
+        <!-- Tambah baris-baris berikutnya sesuai kebutuhan -->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1020644561855",
+    "firebase_url": "https://projectpricetag-default-rtdb.firebaseio.com",
+    "project_id": "projectpricetag",
+    "storage_bucket": "projectpricetag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020644561855:android:20732428b36629f463070a",
+        "android_client_info": {
+          "package_name": "com.anggaa.projectpricetag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLFRrIom8j9b0jloyp6yXtSD4cOtY49cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

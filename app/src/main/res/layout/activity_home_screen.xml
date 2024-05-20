@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.activity.HomeScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Apakah masih ada barang \ntanpa price tag? \nyuk buat pricetag nya \njangan sampe kosong.."
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsmedium"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Tag Normal"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:id="@+id/PricetagNormal"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price Tag Promo"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsmedium"
+            android:backgroundTint="@color/black"
+            android:id="@+id/PricetagPromo"/>
+
+    </LinearLayout>
+
+</LinearLayout>

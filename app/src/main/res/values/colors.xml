@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#0A4B81</color>
+    <color name="purple_500">#0A4B81</color>
+    <color name="purple_700">#0A4B81</color>
+    <color name="teal_200">#0A4B81</color>
+    <color name="teal_700">#0A4B81</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#4152B4</color>
+    <color name="grey">#B8B8B8</color>
+
+    <color name="colorPrimary">#1D2089</color>
+    <color name="colorPrimaryDark">#4A56AB</color>
+    <color name="colorAccent">#4A56AB</color>
+
+    <color name="card_default_color">#FFFFFF</color>
+    <color name="card_pressed_color">#0A4B81</color>
+
+
+    <color name="orange">#FF6500</color>
+    <color name="soft_orange">#FF8551</color>
+    <color name="orangeBright">#FFFF6F00</color>
+    <color name="orangeDark">#FFFF8000</color>
+    <color name="orangeYellow">#FFFF6600</color>
+    <color name="orangeLight">#FFFF8500</color>
+    <color name="orangeIntense">#FFFF7F00</color>
+    <color name="orangeRed">#FFFFB200</color>
+    <color name="orangeBrightRed">#FFFF9000</color>
+    <color name="orangeYellowBright">#FFFF9900</color>
+    <color name="orangeWarmYellow">#FFFFAD00</color>
+    <color name="red">#FF0000</color>
+    <color name="abuabu">#808080</color>
+    <color name="abuabumuda">#F1F1F1</color>
+    <color name="hijau">#32CD32</color>
+    <color name="redOrange">#FF3500</color>
+    <color name="orangeTua">#FF2626</color>
+    <color name="putihsusu">#EEEBDD</color>
+    <color name="cream">#FF9D00</color>
+    <color name="colorDarkBlue">#0C1233</color>
+    <color name="transparant">#00000000</color>
+    <color name="colorGreen50">#80CCF6C8</color>
+    <color name="colorGreen">#7FCD91</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#AAAAAA</color>
+    <color name="colorGrey50">#80AAAAAA</color>
+</resources>
